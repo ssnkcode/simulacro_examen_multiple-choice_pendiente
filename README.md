@@ -4,7 +4,8 @@ Una aplicación web interactiva para realizar exámenes sobre Testing Unitario A
 
 ## 🚀 Características
 
-- **20 preguntas aleatorizadas** de un banco de preguntas sobre Testing Unitario y APIs
+- **110 preguntas aleatorizadas** de un banco de preguntas sobre Testing Unitario y APIs
+- **Interfaz** solo precenta 20 preguntas por vez 
 - **Interfaz responsive** que se adapta a dispositivos móviles y desktop
 - **Temporizador integrado** para control del tiempo de examen
 - **Barra de progreso** visual para seguimiento del avance

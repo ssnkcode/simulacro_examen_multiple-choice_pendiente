@@ -1,0 +1,63 @@
+# Acciones a realizar:
+
+1. **Implementar backend en Node.js** para procesar PDFs  
+2. **Integrar librerías de procesamiento de PDF (como pdf-parse, pdf.js)**  
+3. **Configurar sistema RAG (Retrieval-Augmented Generation)**  
+4. **Desarrollar funcionalidad de preguntas aleatorias basadas en el contenido**  
+5. **Crear endpoint para subir PDFs**  
+6. **Implementar lógica de selección aleatoria de preguntas automáticas**  
+7. **Conectar backend con el frontend existente**
+
+
+----------------------------------------------------------------------------------------
+
+
+Librerías Principales:
+1. Procesamiento de PDFs
+
+npm install pdf-parse
+npm install pdfjs-dist
+
+2. Backend y Servidor
+
+npm install express
+npm install cors
+npm install multer  # Para upload de archivos
+npm install body-parser
+
+3. Sistema RAG y IA (REEMPLAZADO)
+
+npm install @google/generative-ai  # ✅ REEMPLAZA A OPENAI
+npm install langchain
+npm install @langchain/community
+
+4. Embeddings y Procesamiento de Texto
+
+npm install natural  # NLP para generar preguntas
+npm install compromise  # Procesamiento de texto
+
+5. Utilidades
+
+npm install axios
+npm install dotenv
+npm install uuid
+
+Estructura de Dependencias:
+
+{
+  "dependencies": {
+    "express": "^4.18.0",
+    "cors": "^2.8.5",
+    "multer": "^1.4.5",
+    "pdf-parse": "^1.1.1",
+    "pdfjs-dist": "^3.11.0",
+    "@google/generative-ai": "^0.2.1",
+    "langchain": "^0.0.200",
+    "@langchain/community": "^0.0.20",
+    "natural": "^6.0.0",
+    "compromise": "^14.0.0",
+    "axios": "^1.5.0",
+    "dotenv": "^16.3.0",
+    "uuid": "^9.0.0"
+  }
+}
